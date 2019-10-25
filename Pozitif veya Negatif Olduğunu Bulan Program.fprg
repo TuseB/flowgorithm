@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Tuse Bengil"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-20 05:15:40 &#214;S"/>
+        <attribute name="created" value="VHVzZSBCZW5naWw7TEFQVE9QLTVGR1MxRzk3OzIwMTktMTAtMjA7MDU6MTI6NTEgw5ZTOzM0NzM="/>
+        <attribute name="edited" value="VHVzZSBCZW5naWw7TEFQVE9QLTVGR1MxRzk3OzIwMTktMTAtMjA7MDU6MTU6NDAgw5ZTOzE7MzU4Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="say&#305;" type="Real" array="False" size=""/>
+            <output expression="&quot;bir say&#305; giriniz&quot;" newline="True"/>
+            <input variable="say&#305;"/>
+            <if expression="say&#305;&gt;=0">
+                <then>
+                    <if expression="say&#305;=0">
+                        <then>
+                            <output expression="&quot;girilen say&#305; 0'a e&#351;it&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;girilen say&#305; pozitif&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;girilen say&#305; negatif&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

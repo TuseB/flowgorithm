@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Tuse Bengil"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-25 01:14:30 &#214;S"/>
+        <attribute name="created" value="VHVzZSBCZW5naWw7TEFQVE9QLTVGR1MxRzk3OzIwMTktMTAtMjU7MDE6MTA6MjQgw5ZTOzM0NzI="/>
+        <attribute name="edited" value="VHVzZSBCZW5naWw7TEFQVE9QLTVGR1MxRzk3OzIwMTktMTAtMjU7MDE6MTQ6MzAgw5ZTOzE7MzU4MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="rastgele, tahmin, saya&#231;" type="Integer" array="False" size=""/>
+            <assign variable="rastgele" expression="random(100)"/>
+            <assign variable="tahmin" expression="0"/>
+            <assign variable="saya&#231;" expression="1"/>
+            <output expression="&quot;bir tahmin girin&quot;" newline="True"/>
+            <input variable="tahmin"/>
+            <while expression="tahmin!=rastgele">
+                <if expression="tahmin&gt;rastgele">
+                    <then>
+                        <output expression="&quot;daha k&#252;&#231;&#252;k say&#305; girin&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="&quot;daha b&#252;y&#252;k say&#305; girin&quot;" newline="True"/>
+                    </else>
+                </if>
+                <input variable="tahmin"/>
+                <assign variable="saya&#231;" expression="saya&#231;+1"/>
+            </while>
+            <output expression="rastgele&amp;&quot; say&#305;s&#305;n&#305; &quot;&amp;saya&#231;&amp;&quot; defada bildiniz&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

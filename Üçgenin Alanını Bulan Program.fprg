@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Tuse Bengil"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-25 01:50:46 &#214;S"/>
+        <attribute name="created" value="VHVzZSBCZW5naWw7TEFQVE9QLTVGR1MxRzk3OzIwMTktMTAtMjU7MDE6NDg6MTEgw5ZTOzM0Nzk="/>
+        <attribute name="edited" value="VHVzZSBCZW5naWw7TEFQVE9QLTVGR1MxRzk3OzIwMTktMTAtMjU7MDE6NTA6NDYgw5ZTOzE7MzU4OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="taban, y&#252;kseklik, alan" type="Integer" array="False" size=""/>
+            <assign variable="taban" expression="0"/>
+            <assign variable="y&#252;kseklik" expression="0"/>
+            <output expression="&quot;&#252;&#231;genin taban uzunlu&#287;unu girin&quot;" newline="True"/>
+            <input variable="taban"/>
+            <output expression="&quot;&#252;&#231;genin y&#252;ksekli&#287;ini girin&quot;" newline="True"/>
+            <input variable="y&#252;kseklik"/>
+            <assign variable="alan" expression="(taban*y&#252;kseklik)/2"/>
+            <output expression="&quot;&#252;&#231;genin alan&#305;: &quot;&amp;alan" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

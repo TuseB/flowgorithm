@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Tuse Bengil"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-25 01:32:33 &#214;S"/>
+        <attribute name="created" value="VHVzZSBCZW5naWw7TEFQVE9QLTVGR1MxRzk3OzIwMTktMTAtMjU7MDE6Mjg6MDAgw5ZTOzM0NzU="/>
+        <attribute name="edited" value="VHVzZSBCZW5naWw7TEFQVE9QLTVGR1MxRzk3OzIwMTktMTAtMjU7MDE6MzI6MzMgw5ZTOzE7MzU4NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="derece" type="Integer" array="False" size=""/>
+            <output expression="&quot;dereceyi girin&quot;" newline="True"/>
+            <input variable="derece"/>
+            <if expression="derece&gt;100">
+                <then>
+                    <output expression="&quot;su, gaz halde&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="derece&lt;=0">
+                        <then>
+                            <output expression="&quot;su, kat&#305; halde&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;su, s&#305;v&#305; halde&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Tuse Bengil"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-25 01:35:31 &#214;S"/>
+        <attribute name="created" value="VHVzZSBCZW5naWw7TEFQVE9QLTVGR1MxRzk3OzIwMTktMTAtMjU7MDE6MzM6MTMgw5ZTOzM0NzU="/>
+        <attribute name="edited" value="VHVzZSBCZW5naWw7TEFQVE9QLTVGR1MxRzk3OzIwMTktMTAtMjU7MDE6MzU6MzEgw5ZTOzE7MzU4NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="say&#305;" type="Integer" array="False" size=""/>
+            <assign variable="say&#305;" expression="0"/>
+            <output expression="&quot;bir say&#305; girin&quot;" newline="True"/>
+            <input variable="say&#305;"/>
+            <if expression="say&#305;%2==0">
+                <then>
+                    <output expression="&quot;girilen say&#305; &#231;ifttir&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;girilen say&#305; tektir&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

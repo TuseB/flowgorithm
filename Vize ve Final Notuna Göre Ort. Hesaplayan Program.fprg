@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Tuse Bengil"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-20 05:12:40 &#214;S"/>
+        <attribute name="created" value="VHVzZSBCZW5naWw7TEFQVE9QLTVGR1MxRzk3OzIwMTktMTAtMjA7MDU6MDk6NDEgw5ZTOzM0Nzg="/>
+        <attribute name="edited" value="VHVzZSBCZW5naWw7TEFQVE9QLTVGR1MxRzk3OzIwMTktMTAtMjA7MDU6MTI6NDAgw5ZTOzE7MzU3OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="vize, final, ort" type="Integer" array="False" size=""/>
+            <output expression="&quot;vize notunuzu giriniz&quot;" newline="True"/>
+            <input variable="vize"/>
+            <output expression="&quot;final notunuzu giriniz&quot;" newline="True"/>
+            <input variable="final"/>
+            <assign variable="ort" expression="vize*0.40+final*0.60"/>
+            <if expression="ort&gt;=60">
+                <then>
+                    <output expression="&quot;dersi ge&#231;tiniz&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;dersten kald&#305;n&#305;z&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

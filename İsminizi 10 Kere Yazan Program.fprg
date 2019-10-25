@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Tuse Bengil"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-20 05:35:15 &#214;S"/>
+        <attribute name="created" value="VHVzZSBCZW5naWw7TEFQVE9QLTVGR1MxRzk3OzIwMTktMTAtMjA7MDU6MTU6NDkgw5ZTOzM0ODM="/>
+        <attribute name="edited" value="VHVzZSBCZW5naWw7TEFQVE9QLTVGR1MxRzk3OzIwMTktMTAtMjA7MDU6MzU6MTUgw5ZTOzE7MzU4Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="isim" type="String" array="False" size=""/>
+            <declare name="sayac" type="Integer" array="False" size=""/>
+            <assign variable="sayac" expression="1"/>
+            <output expression="&quot;isminizi girin&quot;" newline="True"/>
+            <input variable="isim"/>
+            <while expression="sayac&lt;=10">
+                <assign variable="sayac" expression="sayac+1"/>
+                <output expression="isim" newline="True"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Tuse Bengil"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-25 01:27:45 &#214;S"/>
+        <attribute name="created" value="VHVzZSBCZW5naWw7TEFQVE9QLTVGR1MxRzk3OzIwMTktMTAtMjU7MDE6MjM6MDIgw5ZTOzM0NzI="/>
+        <attribute name="edited" value="VHVzZSBCZW5naWw7TEFQVE9QLTVGR1MxRzk3OzIwMTktMTAtMjU7MDE6Mjc6NDUgw5ZTOzE7MzU5MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="kk, uk, alan, &#231;evre" type="Integer" array="False" size=""/>
+            <assign variable="kk" expression="0"/>
+            <assign variable="uk" expression="0"/>
+            <output expression="&quot;bir kenar uzunlu&#287;unu girin&quot;" newline="True"/>
+            <input variable="kk"/>
+            <output expression="&quot;di&#287;er kenar uzunlu&#287;unu girin&quot;" newline="True"/>
+            <input variable="uk"/>
+            <assign variable="alan" expression="uk*kk"/>
+            <assign variable="&#231;evre" expression="(kk+uk)*2"/>
+            <output expression="&quot;dikd&#246;rtgenin alan&#305;: &quot;&amp;alan" newline="True"/>
+            <output expression="&quot;dikd&#246;rtgenin &#231;evresi: &quot;&amp;&#231;evre" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
